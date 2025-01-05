@@ -93,7 +93,7 @@ function App() {
       component: <ForgotPWbyEmail />,
     },
     {
-      path: "/password-confirmation/:email/:token",
+      path: "/api/password-confirmation/:email/:token",
       component: <ResetPW />,
     },
   ];
